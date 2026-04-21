@@ -22,22 +22,32 @@
 ```python
 class ArjunDeoMishra:
     def __init__(self):
-        self.name       = "Arjun Deo Mishra"
-        self.role       = ["Data Scientist", "ML Engineer", "AI Enthusiast"]
-        self.education  = "B.Tech Computer Science — AI/ML Specialization"
-        self.focus      = [
-            "Transformers & BERT",
-            "Reinforcement Learning",
-            "LSTM / RNN / Time Series",
-            "Graph Neural Networks",
-            "NLP Pipelines",
+        self.name        = "Arjun Deo Mishra"
+        self.role        = ["Data Scientist", "ML Engineer", "AI Enthusiast"]
+        self.education   = "B.Tech Computer Science (AI/ML Specialization)"
+        self.focus       = [
+            "Transformers & BERT (NLP)",
+            "Reinforcement Learning (DQN, Policy Gradient)",
+            "LSTM / RNN / Time Series Forecasting",
+            "Graph Neural Networks (GCN, GAT, GraphSAGE)",
         ]
-        self.tools      = ["Python", "SQL", "PyTorch", "HuggingFace", "Streamlit", "FastAPI"]
-        self.currently  = "Building intelligent systems from structured & relational data"
-        self.quote      = "Data-driven thinking. Intelligent solutions. Continuous learning."
+        self.ml_stack    = ["XGBoost", "LightGBM", "scikit-learn", "SHAP", "Optuna"]
+        self.dl_stack    = ["PyTorch", "TensorFlow", "Keras", "HuggingFace Transformers"]
+        self.deployment  = ["Streamlit", "FastAPI", "Docker", "MLflow"]
+        self.databases   = ["MySQL", "PostgreSQL", "SQLite", "SQL"]
+        self.currently   = "Building intelligent systems from structured & relational data"
+        self.open_to     = "Internships | Research | Collaborations"
+        self.quote       = "Data-driven thinking. Intelligent solutions. Continuous learning."
 
     def say_hi(self):
         print("Thanks for dropping by! Let's build something meaningful with data.")
+
+    def get_contact(self):
+        return {
+            "email"   : "arjundeomishra@gmail.com",
+            "linkedin": "linkedin.com/in/arjundeo-mishra-3390b835b",
+            "github"  : "github.com/ARJUNDEOMISHRA",
+        }
 
 me = ArjunDeoMishra()
 me.say_hi()
@@ -173,7 +183,7 @@ me.say_hi()
   </tr>
 </table>
 
-**Also using:** `XGBoost` · `LightGBM` · `NLTK` · `spaCy` · `NetworkX` · `SciPy` · `Optuna` · `SHAP` · `PyTorch Geometric` · `Stable-Baselines3` · `Gymnasium` · `Seaborn` · `MLflow` · `Anaconda`
+**Also using:** `XGBoost` | `LightGBM` | `NLTK` | `spaCy` | `NetworkX` | `SciPy` | `Optuna` | `SHAP` | `PyTorch Geometric` | `Stable-Baselines3` | `Gymnasium` | `Seaborn` | `MLflow` | `Anaconda`
 
 ---
 
@@ -192,7 +202,7 @@ me.say_hi()
 
 ### 🔹 [Customer Segmentation using K-Means](https://github.com/ARJUNDEOMISHRA/your-repo-name)
 
-> **Unsupervised Learning · Business Intelligence**
+> **Unsupervised Learning | Business Intelligence**
 
 Applied K-Means clustering to segment customers based on purchasing behavior patterns.
 
@@ -210,9 +220,9 @@ Applied K-Means clustering to segment customers based on purchasing behavior pat
 
 ---
 
-### 🔹 [Trader Sentiment Analysis — NLP + Transformers](https://github.com/ARJUNDEOMISHRA/your-repo-name)
+### 🔹 [Trader Sentiment Analysis - NLP + Transformers](https://github.com/ARJUNDEOMISHRA/your-repo-name)
 
-> **NLP · Transformers · BERT Fine-Tuning · Text Classification**
+> **NLP | Transformers | BERT Fine-Tuning | Text Classification**
 
 Built a full NLP pipeline classifying trader sentiment using both classical and transformer-based models.
 
@@ -230,9 +240,9 @@ Built a full NLP pipeline classifying trader sentiment using both classical and 
 
 ---
 
-### 🔹 [Electricity Production Forecasting — LSTM](https://github.com/ARJUNDEOMISHRA/your-repo-name)
+### 🔹 [Electricity Production Forecasting - LSTM](https://github.com/ARJUNDEOMISHRA/your-repo-name)
 
-> **Time Series · LSTM · RNN · Deep Forecasting**
+> **Time Series | LSTM | RNN | Deep Forecasting**
 
 Developed a multi-step time-series forecasting model using LSTM networks on historical production data.
 
@@ -240,19 +250,19 @@ Developed a multi-step time-series forecasting model using LSTM networks on hist
 |---|---|
 | RMSE | **5.31** |
 | MAE | **4.12** |
-| R² Score | **0.89** |
+| R2 Score | **0.89** |
 
 - Engineered lag features, rolling means, and seasonal decomposition components
-- Built and benchmarked **LSTM**, **GRU**, and **ARIMA** — LSTM outperformed across all windows
+- Built and benchmarked **LSTM**, **GRU**, and **ARIMA** - LSTM outperformed across all windows
 - Applied rolling-window cross-validation to simulate real production conditions
 
 **Stack:** `PyTorch` `LSTM` `GRU` `ARIMA` `Pandas` `NumPy` `Matplotlib`
 
 ---
 
-### 🔹 [Graph Neural Network — Node Classification](https://github.com/ARJUNDEOMISHRA/your-repo-name)
+### 🔹 [Graph Neural Network - Node Classification](https://github.com/ARJUNDEOMISHRA/your-repo-name)
 
-> **Graph Learning · Relational Data Modeling · GNN**
+> **Graph Learning | Relational Data Modeling | GNN**
 
 Implemented Graph Neural Networks for relational data modeling and node-level classification.
 
@@ -287,14 +297,14 @@ Implemented Graph Neural Networks for relational data modeling and node-level cl
 ```
 Deep Learning
 ├── Sequence Models & Time Series
-│   ├── RNN  — Recurrent Neural Networks
-│   ├── LSTM — Long Short-Term Memory
-│   └── GRU  — Gated Recurrent Unit
+│   ├── RNN  - Recurrent Neural Networks
+│   ├── LSTM - Long Short-Term Memory
+│   └── GRU  - Gated Recurrent Unit
 │
 ├── Transformers & NLP
 │   ├── Attention / Self-Attention Mechanism
-│   ├── BERT  — Fine-tuning for classification & NER
-│   ├── Seq2Seq — Encoder-Decoder for generation tasks
+│   ├── BERT  - Fine-tuning for classification & NER
+│   ├── Seq2Seq - Encoder-Decoder for generation tasks
 │   └── Word Embeddings (BERT, Word2Vec, GloVe)
 │
 ├── Reinforcement Learning
@@ -303,15 +313,15 @@ Deep Learning
 │   └── Actor-Critic Methods (A2C / PPO)
 │
 ├── Convolutional Neural Networks (CNN)
-├── Graph Neural Networks — GCN, GAT, GraphSAGE
+├── Graph Neural Networks - GCN, GAT, GraphSAGE
 └── Autoencoders & Transfer Learning
 
 Machine Learning
 ├── Supervised Learning
 │   ├── Linear & Logistic Regression
-│   ├── SVM — Linear, RBF, Polynomial kernels
+│   ├── SVM - Linear, RBF, Polynomial kernels
 │   ├── Decision Trees & Random Forest
-│   └── Gradient Boosting — XGBoost, LightGBM
+│   └── Gradient Boosting - XGBoost, LightGBM
 ├── Unsupervised Learning
 │   ├── K-Means, DBSCAN, Hierarchical Clustering
 │   └── PCA, t-SNE (Dimensionality Reduction)
